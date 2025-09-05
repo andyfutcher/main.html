@@ -5,7 +5,7 @@
 ## Main.HTML not modified from original. Date: 2025-09-05 ### */
 /* Wireframe */
 *,*::before,*::after {box-sizing:border-box;margin:0;padding:0;
-} :root {--ver-major:0;--ver-minor:7;--ver-patch:8;--ver-branch:'dev'; /* Versions */
+} :root {--ver-major:0;--ver-minor:7;--ver-patch:12;--ver-branch:'dev'; /* Versions */
 --font-fallback:-apple-system,BlinkMacSystemFont,"Apple Color Emoji"; /* Font Fallback */
 color-scheme:light dark; /* Dark Mode Supported */
 /* AUTO FONTS */		/*--font-body:"";--font-headings:"";--font-monospace:"";--font-title:"";--font-brand:"";--font-footer:"";--font-reader-mode:"";*/
@@ -59,7 +59,7 @@ html {overflow-x:hidden;overflow-y:hidden;overflow:hidden;width:100%;max-width:1
 } blockquote,.blockquote,[role="presentation"] {margin:var(--spacing,1rem) var(--spacing,1rem) var(--spacing,1rem) calc(var(--spacing,1rem) * 2);padding-left:var(--spacing,1rem);color:var(--text,#343a40);font-style:italic;border-left:0.75em solid var(--blockquote-border,#007bff);text-shadow:1px 1px 2px var(--text-shadow,#fff);
 } blockquote p,.blockquote p,[role="presentation"] p,li>ul,li>ol {margin-bottom:0;
 } footer,.footer,[role="contentinfo"] {margin-top:calc(var(--spacing,1rem) * 3);font-family:var(--font-reader-mode,var(--font-footer,var(--font-body,var(--font-fallback))));color:var(--footer-text,#f8f9fa);text-align:center;background:var(--footer,#343a40);overflow:hidden;
-} footer>div>*,.footer>div>*,[role="contentinfo"]>div>* {margin-top:var(--spacing,1rem);float:inline-start;text-align:justify;} footer:empty,.footer:empty,dialog:empty,nav:empty {display:none !important;
+} footer>div>*,.footer>div>*,[role="contentinfo"]>div>* {margin-top:var(--spacing,1rem);float:inline-start;text-align:justify;} privy,.privy,footer:empty,.footer:empty,dialog:empty,nav:empty {display:none !important;
 } :focus-visible {outline:2px solid var(--link);outline-offset:2px;box-shadow:0 0 0 2px var(--background,#fffcf7), 0 0 0 4px var(--link);} :focus:not(:focus-visible) {outline:none;
 } /* Main Menu */
 main nav,main [role="navigation"] {margin:calc(var(--spacing,1rem) * 2) 0 var(--spacing,1rem);
